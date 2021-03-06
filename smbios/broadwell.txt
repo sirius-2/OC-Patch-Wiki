@@ -1,0 +1,23 @@
+0x16060000 ? 3 1 ? 1 ?
+0x160e0001 ? 3 1 2 1 ?
+0x16160000 ? 3 1 ? 1 Intel_HD_Graphics_5500
+0x161e0000 ? 3 1 ? 1 Intel_HD_Graphics_5300
+0x16220000 ? 3 1 ? 1 Intel_Iris_Pro_Graphics_6200 
+0x16260000 ? 3 1 ? 1 Intel_HD_Graphics_6000
+0x162b0000 ? 3 1 ? 1 Intel_Iris_Graphics_6100
+0x161e0001 MacBook8,1 3 1 2 ? Intel_HD_Graphics_5300
+0x16060002 ? 3 1 2 ?
+0x16160002 ? 3 1 2 ? Intel_HD_Graphics_5500
+0x16220002 ? 3 1 2 ? Intel_Iris Pro_Graphics_6200
+0x16260002 ? 3 1 2 ? Intel_HD_Graphics_6000
+0x162b0002 MacBookPro12,1 3 1 2 ? Intel_Iris_Graphics_6100
+0x16120003 ? 3 1 2 ? Intel_HD_Graphics_5600	
+0x16260004 ? 3 1 2 ? Intel_HD_Graphics_6000	
+0x162b0004 ? 3 1 2 ? Intel_Iris_Graphics_6100
+0x16260005 ? 3 1 2 ? Intel_HD_Graphics_6000
+0x16260006 iMac16,1 3 1 2 ? Intel_HD_Graphics_6000
+0x16260006 MacBookAir7,1 3 1 2 ? Intel_HD_Graphics_6000
+0x16260006 MacBookAir7,2 3 1 2 ? Intel_HD_Graphics_6000
+0x16220007 iMac16,2 3 1 2 ? Intel_Iris_Pro_Graphics_6200
+0x16200008 ? 2 1 1 ? Intel_HD_Graphics_6000
+0x162b0008 ? 3 1 2 ? Intel_Iris_Graphics_6100
