@@ -89,10 +89,15 @@
 
 ### 常见驱动加载顺序
 宪武[OC-Little](https://github.com/daliansky/OC-little/tree/master/常见驱动加载顺序)
+
+### 直接启动到macOS
++ `Ctrl + 数字`选择默认启动入口  
++ `Misc -> Boot -> ShowPicker -> NO`  
+> 默认入口选择要求`Misc -> Security -> AllowSetDefault -> YES`，设置完成后可为`NO`  
+
 ### TroubleShooting
 Dortania Guide: [用户空间issue](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/userspace-issues.html)  
 + 磁盘: [SATA在Recovery未显示](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/userspace-issues.html#sata-drives-not-shown-in-diskutility)
-+ macOS版本不支持:
-> This version of Mac OS X is not supported on this platform  
-
-`boot-args`添加`-no_compat_check`
++ macOS版本不支持:  
+   Q: This version of Mac OS X is not supported on this platform  
+   A: `boot-args`添加`-no_compat_check`
