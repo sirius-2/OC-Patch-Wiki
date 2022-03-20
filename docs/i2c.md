@@ -1,13 +1,14 @@
-# 主要
+# 中断模式（GPIO或APIC）
+## 主要
 + 正确顺序加载Kext
 + 启用GPI0
 + 修改触摸板设备(如ETPD、TPXX)代码
 
-## 正确顺序加载kext
+### 正确顺序加载kext
 + 根据需要放置核心驱动`VoodooI2C.kext`及卫星驱动(如`VoodooI2CHID.kext`)到`EFI/OC/kexts`
 + 查阅[config-4-I2C+PS2驱动列表](https://github.com/daliansky/OC-little/blob/master/常见驱动加载顺序/config-4-I2C%2BPS2驱动列表.md)，按顺序添加需要的代码到config.plist
 
-## 启用GPI0
+### 启用GPI0
 找到设备，让其在OSI识别为Darwin时启用该设备，则让它返回`0x0f`  
 例子:
 ```
@@ -67,7 +68,7 @@
             }
 ```
 
-## 修改触摸板设备
+### 修改触摸板设备
 详细： 参阅[VoodooI2C Official docs](https://voodooi2c.github.io)  
 > 本文为中断模式教程  
 > 若使用轮询模式，则请不要打DSDT补丁，基本无需修改安装VoodooI2CHID
@@ -173,3 +174,10 @@ Return (ConcatenateResTemplate (SBFB, SBFG))
 ```
 
 到这里DSDT补丁方法完成，编译无错误即可保存。
+
+# 轮询模式
++ 确保没有应用GPIO Controller 补丁
+
++ 确保没有做GPIO 的手动修改
+
++ 确保CRS返回值中只不返回 SBFG (Gpioint)
