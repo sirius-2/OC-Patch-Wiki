@@ -71,6 +71,7 @@ BB1C,8,BB1D,8,BB1E,8,BB1F,8,
 ## 修正DSDT错误
 详细： 参阅[ACPI热补丁概述](https://xstar-dev.github.io/hackintosh_advanced/Guide_For_Battery_Hotpatch.html#_16-位拆分写入-w16b)  
 
+### 寄存器偏移量
 首先了解寄存器偏移量算法，如：
 ```
 OperationRegion (ECF3, EmbeddedControl, Zero, 0xFF) // 作用域为 EmbeddedControl，起始偏移量为0，最大长度 0xFF，即 255个字节
