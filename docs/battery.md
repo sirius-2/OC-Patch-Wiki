@@ -256,6 +256,20 @@ If ((B1CH == 0x0050694C))
 If ((B1B4 (BC0H, BC1H, BC2H, BC3H) == 0x0050694C))
 ```
 
++ 修改 32 位以上寄存器读取: `RECB (Offset, Length)`
+> Offset 为原寄存器的偏移量
+> Length 为原寄存器的长度
+```
+//原始Field
+Offset (0x8F),
+B1MA,   64,
+
+//原语句
+IFMN = B1MA
+
+//修改后
+IFMN = RECB (0x8F, 0x40)
+```
 + 修改 32 位以上寄存器写入：`WECB (Offset, Length, Obj)`
 > Offset 为原寄存器的偏移量  
 > Length 为寄存器的长度  
