@@ -22,7 +22,7 @@ git clone https://gitee.com/Sirius2/Fedora-OSbase.git && cd Fedora-OSbase && sud
 
 ![pinconfigurator](../wiki-pic/pinconfigurator.png)
 
-复制下方本机`ConfigData`到文本窗口，放到最前面供参考
+右下角Get ConfigData，复制下方本机`ConfigData`到文本窗口，放到最前面供参考
 > 稍后会把下方的每一个`ConfigData`复制到下方，目的是为了比对搜索。可以像我一样本机型`CongData`每一行前几位相同的放到同一行隔开，代表一个节点的数据  
 > 如`01471C10`前三位一样的代表一个节点，第二位和第三位表示0x14节点，每个节点什么意思在PinConfigurator查看
 
@@ -53,7 +53,7 @@ git clone https://gitee.com/Sirius2/Fedora-OSbase.git && cd Fedora-OSbase && sud
 
 ## 填入config文件
 这三个就对应考虑为最优`layout-id`，我选的是99，填入`EFI/OC/config.plist`：
-> Data类型为了减少引导计算，转换为十六进制0x69
+> Data类型为了减少引导计算，转换为十六进制0x63
 
 ![alc_inject](../wiki-pic/alc_inject.png)
 
