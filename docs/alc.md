@@ -56,3 +56,6 @@ git clone https://gitee.com/Sirius2/Fedora-OSbase.git && cd Fedora-OSbase && sud
 > Data类型为了减少引导计算，转换为十六进制0x69
 
 ![alc_inject](../wiki-pic/alc_inject.png)
+
++ 仅修改引导配置文件，声卡驱动可随官方更新  
+> 上述为本机最优`layout-id`筛查确认方法（完）
