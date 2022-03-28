@@ -53,12 +53,12 @@
 
 ### 电池
 + [SMCBatteryManager](https://github.com/acidanthera/VirtualSMC)  
-+ DSDT电池拆分: [ [OC-Little Doc](https://ocbook.tlhub.cn/08-电池补丁/) ] | [ [微臣ccc Doc](./docs/battery.md) ]
++ DSDT电池拆分: [ [OC-Little Doc](https://ocbook.tlhub.cn/08-电池补丁/) ] | [ [Sirius2 Doc](./docs/battery.md) ]
 
 ### 触摸板
 + [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C)  
 + DSDT Patch: [VoodooI2C-Patches](https://github.com/VoodooI2C/VoodooI2C-Patches)  
-+ VoodooI2C Doc: [[Official doc](https://voodooi2c.github.io)] | [[微臣ccc Doc](docs/i2c.md)]  
++ VoodooI2C Doc: [[Official doc](https://voodooi2c.github.io)] | [[Sirius2 Doc](docs/i2c.md)]  
 + IOReg: [IORegistryExplorer](https://github.com/khronokernel/IORegistryClone)
 
 ### 声卡
@@ -66,7 +66,7 @@
 + alcid: [Wiki](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)  
 + [Dortania Guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id)  
 + Codec生成: [PinConfigurator](https://github.com/headkaze/PinConfigurator)  
-+ [房大叔的定制教程](https://fangf.cc/2020/03/02/applealc/)
++ [Sirius2 Doc](./docs/alc.md)
 
 ### 蓝牙
 + Intel蓝牙: [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)  
