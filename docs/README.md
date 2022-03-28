@@ -23,6 +23,9 @@
 
 > 寻找最适合的layout-id
 
++ 内核扩展  
+使用[AppleALC](https://guthub.com/acidanthera/AppleALC)
+
 + [概述](i2c.md)
 
    + 收集声卡文件
